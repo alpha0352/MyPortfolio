@@ -1,11 +1,11 @@
 const projectData = [
     {
         id: 1,
-        image: "https://res.cloudinary.com/dwa1jtluu/image/upload/v1673204918/kenjimmy.me/veet-shot_lerl5h.jpg",
-        title: "Project 1",
-        description: "Description of project 1",
-        link: "#",
-        language: ["C","C#"]
+        image: "../img/hotel_landing_page.png",
+        title: "Hotel Website Landing Page",
+        description: "A modern, responsive landing page designed for a hotel. The page features an elegant design with smooth animations, an interactive booking form.",
+        link: "https://github.com/alpha0352/HotelLandingPage",
+        language: ["HTML","CSS","JavaScript"]
     },
     {
         id:2,
