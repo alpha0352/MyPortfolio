@@ -1,0 +1,224 @@
+.container-fluid{
+    display: block;
+    background-color:rgb(227, 225, 225);
+    /* max-height: fit-content; */
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    color: rgb(105, 105, 105);
+   
+    text-transform:uppercase;
+}
+.header-logo-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+.logo img{
+    position: relative;
+    /* width: 50px;
+    height: 50px; */
+    max-height: 3em;
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgb(255, 255, 0);
+    margin-right: 20px;
+}
+.name-script{
+    font-family: Inter,Open Sans,sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.header-menubar a{
+    text-decoration: none;
+    color: gray;
+    width: 25%;
+}
+.header-menubar ul{
+    display: inline-flex;
+    margin: auto;
+    list-style-type: none;
+}
+.header-menubar ul li{
+    text-transform: uppercase;
+    margin: 0px 10px;
+    text-decoration: none;
+    padding-right: 20px;
+    font-weight:500;
+}
+.header-menubar li:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+.contact{
+    margin: 5px;
+}
+.contact a{
+    background:rgb(255, 255, 0);
+    margin: auto;
+    padding: 10px 8px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+    box-shadow:2px;
+}
+.contact a:hover{
+    background: linear-gradient(to right, rgb(255, 255, 24),rgb(254, 249, 106));
+}
+.landing-section{
+    display: block;
+    height: 100vh;
+}
+.landing-intro{
+    margin:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    font-size: 50px;
+}
+.landing-note{
+    max-width: 30%; 
+}
+.introdet{
+    font-size: 25px;
+}
+.landing-clipart img{
+    width:450px;
+    height:450px;
+}
+.prjctsbtn{
+    margin-top: 30px;
+}
+.prjctsbtn a{
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    background: yellow;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.prjctsbtn a:hover{
+    background: linear-gradient(to right, rgb(255, 255, 24),rgb(254, 249, 106));
+    color: black;
+}
+.landing-section-end{
+    position: absolute;
+    display: block;
+    left: 50%;
+    bottom: 10%;
+
+}
+.services{
+    padding: 2em;
+    background:rgb(246, 246, 246);
+}
+.services h1{
+    text-align: center;
+}
+.service-details{
+    display: flex;
+    padding: 3em;
+    justify-content: center;
+}
+
+.service-details div{
+    max-width: 30%;
+    margin-left: 1.5rem;
+}
+
+.service-details img{
+    height: 50px;
+    width: 50px;
+    align-items: left;
+    margin-bottom: 25px;
+}
+
+.service-details h4{
+    margin-bottom: 15px;
+}
+
+.service-details p{
+    max-width: 75%;
+}
+.recent-projects {
+    padding: 2em;
+    background-color: #f8f8f8;
+}
+
+.section-header h1 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+.projects-sub span{
+    display: block;
+    max-width: 40rem;
+    margin: 2rem;
+    /* padding: 2rem; */
+    /* text-align: center; */
+
+}
+.window-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-item {
+    margin: 2.5em;
+    padding: 1em;
+    border: 3px solid rgb(250, 225, 5);
+    border-radius: 5px;
+    max-width: 300px;
+    background-color: white;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+    text-align: center;
+    height: auto;
+}
+
+.list-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.list-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.list-item p {
+  margin-bottom: 1em;
+}
+
+.list-item a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background-color: rgb(249, 225, 5);;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.list-item button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: rgb(249, 225, 5);;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+
+.list-item a:hover {
+  background-color: rgb(253, 220, 5);
+}

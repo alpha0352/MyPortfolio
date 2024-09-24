@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/add-on.css">
+    <link rel="stylesheet" href="/css/search.css">
+    <link href="node_modules\lightbox2\src\css\lightbox.css" rel="stylesheet" />
+    <title>Anas Portfolio</title>
+    
+
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="header-content">
+            <div class="header-logo-content">
+                <div class="logo">
+                    <img src=/img/logo1.png class="logo-img">
+                </div>
+                <div>
+                    <span class="name-script">Anas Ali</span>
+                </div>
+            </div>
+            <div class="header-menubar">
+                <ul>
+                    <li>
+                        <a href="./#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="./#projects">projects</a>
+                    </li>
+                    <li>
+                        <a href="./#certification">Certifications</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <a href="#">GET IN TOUCH</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="landing-section">
+        <div class="landing-intro">
+            <div class="landing-note">
+                <p class="intro">Hey, I'm Anas</p>
+                <p class="introdet">I am a back-end developer. My name is anas and what is your name?</p>
+                <div class="prjctsbtn">
+                    <a href="#projects">Check Out Projects</a>
+                </div>
+            </div>
+            <div class="landing-clipart">
+                <img src="/img/landing-clipart.svg">
+            </div>
+        </div>
+        <div class="landing-section-end">
+            <div class="scroll-down-arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading">
+            <h1 class="services-heading">Services</h1>
+        </div>
+        <div class="service-details">
+            <div class="webdev">
+                <img class="webdevimg" src="/img/webdev.png">
+                <h4> Web Development</h4>
+                <p>Offering web development services to fully tap into the capablities offered by modern technologies
+                </p>
+            </div>
+            <div class="landing-pages">
+                <img class="lndpageimg" src="/img/landingpage.png">
+                <h4>Landing Page</h4>
+                <p>I am passionate about creating beautiful, functional, and user-friendly websites and landing pages
+                    that convert to paying clients.</p>
+            </div>
+            <div class="Portfolios">
+                <img class="portfolioimg" src="/img/portfolio.png">
+                <h4>Portfolio</h4>
+                <p>I can design attractive protfolios, helping in attract more clients and grabing their interest.</p>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+    <section class="recent-projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h1>Recent Projects</h1>
+                <!-- <span class="projects-sub">Here you will find some of the personal and clients projects that I created
+                    with each project containing its own case study</span> -->
+            </div>
+            <div id="search-container">
+                <input
+                  type="search"
+                  id="search-input"
+                  placeholder="Search product name here.."
+                />
+                <button id="search">Search</button>
+              </div>
+            <div id="buttons">
+                <button class="button-value" onclick="filterProject('all')">All</button>
+                <button class="button-value" onclick="filterProject('C')">C</button>
+                <button class="button-value" onclick="filterProject('C#')">C#</button>
+                <button class="button-value" onclick="filterProject('JavaScript')">JavaScript</button>
+                <button class="button-value" onclick="filterProject('Python')">Python</button>
+              </div>
+            <div class="window-list" id="project_list">
+                <!-- <div class="list-item">
+                    <img src="https://res.cloudinary.com/dwa1jtluu/image/upload/v1673204918/kenjimmy.me/veet-shot_lerl5h.jpg"
+                        alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="list-item">
+                    <img src="https://res.cloudinary.com/dwa1jtluu/image/upload/v1673204918/kenjimmy.me/veet-shot_lerl5h.jpg"
+                        alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="list-item">
+                    <img src="https://res.cloudinary.com/dwa1jtluu/image/upload/v1673204918/kenjimmy.me/veet-shot_lerl5h.jpg"
+                        alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Description of project 3</p>
+                    <a href="#">Learn More</a> 
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="certs" id="certification">
+        <div class="container">
+            <div class="section-header">
+                <h1>Certifications</h1>
+            </div>
+            <div class="window-list">
+                <div class="list-item rafay" >
+                    <div>
+                        <img src="/img/DataClean.png"
+                            alt="Data Cleaning Certificate">
+                        <h3>Cleaning Data in Python</h3>
+                    </div>
+                    <div><a href="/img/DataClean.png" data-lightbox="certificates" data-title="Certificate">Check out Certificate</a></div>
+                </div>
+
+                <div class="list-item rafay">
+                    <div>
+                        <img src="/img/ClusterAnalysis.png"
+                            alt="Cluster Analysis Certificate">
+                        <h3>Cluster Analysis</h3>
+                    </div>
+                    <div><a href="/img/ClusterAnalysis.png" data-lightbox="certificates" data-title="Certificate">Check out Certificate</a></div>
+                </div>
+
+                <div class="list-item rafay">
+                    <div>
+                        <img src="/img/EDA.png"
+                            alt="EDA Certificate">
+                        <h3>Exploratory Data Analysis</h3>
+                    </div>
+                    <div><a href="/img/EDA.png" data-lightbox="certificates" data-title="Certificate">Check out Certificate</a></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <script src="/certificate.js"></script> -->
+    <script src="node_modules\lightbox2\dist\js\lightbox-plus-jquery.js"></script>
+    <script src="js\search2.js"></script>
+
+</body>
+
+</html>
