@@ -1,7 +1,7 @@
 const projectData = [
     {
         id: 1,
-        image: "../img/hotel_landing_page.png",
+        image: "img/hotel_landing_page.png",
         title: "Hotel Website Landing Page",
         description: "A modern, responsive landing page designed for a hotel. The page features an elegant design with smooth animations, an interactive booking form.",
         link: "https://github.com/alpha0352/HotelLandingPage",
